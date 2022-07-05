@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>MAB</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <div id="graph1"></div>
+</head>
+<body>
+
+
+<style>
+  .container {
+    height: 150px;
+    position: relative;
+    border: none;
+    top: 50%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(+30%);
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-285%);
+  }
+</style>
+<div class="container">
+  <div class="vertical-center">
+    <button id="nextButton" style="background-color: #6fff7d">Next Fifty Steps</button>
+    <button id="nextButton100" style="background-color: #e0ff6f">Next Hundred Steps</button>
+    <button id="resetButton" style="background-color: #ffbe6f">Reset Simulation</button>
+
+  </div>
+</div>
+
+<script type='text/javascript' src='mabprob.js'></script>
+</body>
+</html>
