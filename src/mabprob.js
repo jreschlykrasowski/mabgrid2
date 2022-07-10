@@ -248,7 +248,7 @@ function stepsIncremented() {  //this modifies the graph x axes appropriately fo
 
     svg.append("rect")
         .attr("class", "square")
-        .style("fill", "#ffffff")
+        .style("fill", "#ff0000")
         .attr("x", 10)
         .attr("y", 360)
         .attr("height", 20)
