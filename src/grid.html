@@ -6,7 +6,7 @@
   <title>MAB</title>
   <link rel='stylesheet' href='style.css'>
   <script src="https://d3js.org/d3.v4.js"></script>
-  <div id="graph1"></div>
+  <div id="probability_vis"></div>
 </head>
 <body>
 
@@ -29,14 +29,8 @@
     transform: translateY(-285%);
   }
 </style>
-<div class="container">
-  <div class="vertical-center">
-    <button id="nextButton" style="background-color: #6fff7d">Next Fifty Steps</button>
-    <button id="nextButton100" style="background-color: #e0ff6f">Next Hundred Steps</button>
-    <button id="resetButton" style="background-color: #ffbe6f">Reset Simulation</button>
 
-  </div>
-</div>
+<div id="grid"></div>
 
 <script type='text/javascript' src='mabprob.js'></script>
 </body>
