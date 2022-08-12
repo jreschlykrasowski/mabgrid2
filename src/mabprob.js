@@ -1,6 +1,6 @@
 //#Function for creating a Grid
 //Source: https://cagrimmett-jekyll.s3.amazonaws.com/til/2016/08/17/d3-lets-make-a-grid.html
-function gridData() {
+/*function gridData() {
     var data = new Array();
     var xpos = 1; //starting xpos and ypos at 1 so the stroke will show when we make the grid below
     var ypos = 1;
@@ -56,4 +56,5 @@ var column = row.selectAll(".square")
     .attr("width", function(d) { return d.width; })
     .attr("height", function(d) { return d.height; })
     .style("fill", "#fff")
-    .style("stroke", "#222");
+    .style("stroke", "#222"); */
+
